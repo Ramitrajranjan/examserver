@@ -1,6 +1,6 @@
 package com.example.examserver.services.implementation;
 
-import com.example.examserver.model.User;
+
 import com.example.examserver.model.exam.Category;
 import com.example.examserver.model.exam.Quiz;
 import com.example.examserver.repository.QuizRepository;

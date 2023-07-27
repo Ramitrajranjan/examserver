@@ -1,7 +1,6 @@
 package com.example.examserver.services;
 
 import com.example.examserver.model.exam.Category;
-import org.springframework.stereotype.Service;
 
 import java.util.Set;
 

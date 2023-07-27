@@ -1,27 +1,22 @@
 package com.example.examserver;
 
-import com.example.examserver.helper.UserFoundException;
-import com.example.examserver.model.Role;
-import com.example.examserver.model.User;
-import com.example.examserver.model.UserRole;
-import com.example.examserver.services.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
+
+// import com.example.examserver.services.UserService;
+// import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+// import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-import java.util.HashSet;
-import java.util.Set;
 
 @SpringBootApplication
 @EnableScheduling
 public class ExamserverApplication implements CommandLineRunner {
-    @Autowired
-    private UserService userService;
-    @Autowired
-    private BCryptPasswordEncoder bCryptPasswordEncoder;
+    // @Autowired
+    // private UserService userService;
+    // @Autowired
+    // private BCryptPasswordEncoder bCryptPasswordEncoder;
     public static void main(String[] args) {
         SpringApplication.run(ExamserverApplication.class, args);
     }

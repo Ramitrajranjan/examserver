@@ -2,8 +2,6 @@ package com.example.examserver.Controller;
 
 import com.example.examserver.model.Order;
 import com.example.examserver.model.User;
-import com.example.examserver.model.exam.Category;
-import com.example.examserver.model.exam.Quiz;
 import com.example.examserver.services.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

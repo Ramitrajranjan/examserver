@@ -1,7 +1,7 @@
 package com.example.examserver.dto;
 
 import com.example.examserver.model.OrderQuiz;
-import lombok.*;
+
 
 import java.util.List;
 
